@@ -1,0 +1,12 @@
+Source: efilinux
+Section: utils
+Priority: optional
+Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
+Build-Depends: debhelper (>= 9), gnu-efi
+Standards-Version: 3.9.4
+
+Package: efilinux
+Architecture: amd64 i386
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: UEFI bootloader
+ efilinux is a simple UEFI bootloader.

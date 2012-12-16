@@ -1,0 +1,15 @@
+Author: Daniel Baumann <daniel.baumann@progress-technologies.net>
+Description: Update libdir on amd64 (Closes: #646191).
+
+diff -Naurp efilinux.orig/Makefile efilinux/Makefile
+--- efilinux.orig/Makefile	2011-10-22 08:05:41.243305829 +0200
++++ efilinux/Makefile	2011-10-22 08:06:23.779505882 +0200
+@@ -40,7 +40,7 @@ HOST  = $(shell $(CC) -dumpmachine | sed
+ ARCH := $(shell $(CC) -dumpmachine | sed "s/\(-\).*$$//")
+ 
+ ifeq ($(ARCH),x86_64)
+-	LIBDIR=/usr/lib64
++	LIBDIR=/usr/lib
+ 	FORMAT=efi-app-x86-64
+ else
+ 	ARCH=ia32

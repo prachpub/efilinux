@@ -1,0 +1,36 @@
+efilinux (1.0-3) unstable; urgency=low
+
+  * Adding dpkg-source local options.
+  * Updating to standards version 3.9.4.
+  * Correcting architecture fields.
+
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Sun, 16 Dec 2012 10:38:26 +0100
+
+efilinux (1.0-2) unstable; urgency=low
+
+  * Switching to xz compression.
+
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Fri, 29 Jun 2012 14:32:09 +0200
+
+efilinux (1.0-1) unstable; urgency=low
+
+  * Updating package to standards version 3.9.3.
+  * Updating package to debhelper version 9.
+  * Merging upstream version 1.0.
+  * Updating copyright file to machine-readable format version 1.0.
+  * Rediffing gnuefi.patch.
+  * Adding lintian overrides.
+
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Fri, 18 May 2012 14:19:00 +0200
+
+efilinux (0.9-2) unstable; urgency=low
+
+  * Adding patch to update libdir on amd64 (Closes: #646191).
+
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Sat, 22 Oct 2011 08:13:10 +0200
+
+efilinux (0.9-1) unstable; urgency=low
+
+  * Initial release (Closes: #639768).
+
+ -- Daniel Baumann <daniel.baumann@progress-technologies.net>  Wed, 12 Oct 2011 21:19:34 +0200
