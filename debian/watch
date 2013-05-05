@@ -1,0 +1,3 @@
+version=3
+opts=uversionmangle=s/_/./g \
+https://github.com/mfleming/efilinux/tags .*/(?:v||efilinux[_\-])(\d.*)\.(?:tgz|tbz2|txz|tar\.(?:gz|bz2|xz))
