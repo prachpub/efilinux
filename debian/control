@@ -10,6 +10,7 @@ Homepage: https://github.com/mfleming/efilinux
 
 Package: efilinux
 Architecture: amd64 i386
+Pre-Depends: dpkg (>= 1.15.6~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: UEFI bootloader
  efilinux is a simple UEFI bootloader.
