@@ -1,7 +1,7 @@
 Source: efilinux
 Section: utils
 Priority: optional
-Maintainer: Daniel Baumann <daniel.baumann@progress-technologies.net>
+Maintainer: Prach Pongpanich <prachpub@gmail.com>
 Build-Depends: debhelper (>= 9), gnu-efi
 Standards-Version: 3.9.4
 Vcs-Git: git://github.com/prachpub/efilinux.git
